@@ -4,7 +4,7 @@ def run_guessing_game
   while true
     puts "Guess a number between 1 and 6."
     guess = gets.chomp
-    if guess = "exit"
+    if guess == "exit"
       break
     end
   end
