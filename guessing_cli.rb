@@ -6,6 +6,7 @@ def run_guessing_game
     guess = gets.chomp
     if guess.to_i == answer_num
       puts "You guessed the correct number!"
+    end
     if guess == "exit"
       break
     end
